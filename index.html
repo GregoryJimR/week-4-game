@@ -1,0 +1,74 @@
+<!DOCTYPE - html>
+
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <link src="assets/css/reset.css" type="style/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <h1>Crystal Game</h1>
+
+    <div class="container" "col-xs-12">
+        <div class="row">
+            <row class="col-xs-12">
+                <button><h2 id="begin">Click to begin</h2></button>
+            </row>
+            <div class="alertPanel" "row">
+                <div class="col-xs-12">
+                    <div>
+                        <h2 id="goal">Goal Number: </h2>
+                    </div>
+                    <div>
+                        <h2 id="guesses">Your Number: </h2>
+                    </div>
+                    <div>
+                        <h2 id="wins">Total Wins:</h2>
+                    </div>
+                    <div>
+                        <h2 id="losses">Total Losses:</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <h2 id="alert"></h2>
+                </div>
+            </div>
+
+
+            <div class="row" "button-panel">
+                <div class="col-xs-3">
+                    <button class="crystal" value='0'>
+                    <img class="crystal-img" src="assets/images/bluefish.jpg" alt="crystals">
+                </button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="crystal" value='1'>
+                    <img class="crystal-img" src="assets/images/purplefish.jpg" alt="crystals">
+                </button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="crystal" value='2'>
+                    <img class="crystal-img" src="assets/images/redcandy.png" alt="crystals">
+                </button>
+                </div>
+                <div class="col-xs-3">
+                    <button class="crystal" value='3'>
+                    <img class="crystal-img" src="assets/images/roundcandy.png" alt="crystals">
+                </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
